@@ -7,8 +7,7 @@ void setup(){
     things[i] = new Thing();
   }
   //noLoop();                     // call this so that draw() is called only once and we can control the iteration through 'for' loop in Thing class
-
-  saveFrame("######.png");
+  //saveFrame("######.png");      // enable this to save the frames
 }
 
 void draw(){
